@@ -24,4 +24,7 @@ class Book extends Model
     public function prise(){
         return $this->hasMany(Prise::class);
     }
+    public function reservation(){
+        return $this->hasMany(Reservation::class);
+    }
 }

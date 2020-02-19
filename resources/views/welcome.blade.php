@@ -30,9 +30,14 @@
                     <p class="text-muted">L'application EsiBib est une application pour la gestion des ouvrages du bibiothéque de l'école superieure d'informatique.</p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">
-                    <h4 class="text-white">Contact</h4>
+                    <h4 class="text-white">Operations</h4>
                     <ul class="list-unstyled">
-                        <li><a href="{{route('login')}}" class="text-white">Se connecter</a></li>
+                        @if(auth()->user())
+                            <li><a href="{{route('admin')}}" class="text-white">Tablaux de bord</a></li>
+                            @else
+                            <li><a href="{{route('login')}}" class="text-white">Se connecter</a></li>
+                            @endif
+
                     </ul>
                 </div>
             </div>

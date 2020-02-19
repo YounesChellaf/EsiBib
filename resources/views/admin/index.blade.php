@@ -25,6 +25,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/feather.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/waves.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/themify.css')}}">
     {{--<link rel="stylesheet" type="text/css" href="{{asset('assets/css/font-awesome-n.min.css')}}">--}}
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/chartist.css')}}" type="text/css" media="all">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
@@ -53,8 +54,8 @@
         <nav class="navbar header-navbar pcoded-header">
             <div class="navbar-wrapper">
                 <div class="navbar-logo">
-                    <a href="index.html">
-                        <img class="img-fluid" src="../files/assets/images/logo.png" alt="Theme-Logo" />
+                    <a href="{{route('landing')}}">
+                        <h2>ESI BIB</h2>
                     </a>
                     <a class="mobile-menu" id="mobile-collapse" href="#!">
                         <i class="feather icon-menu icon-toggle-right"></i>
@@ -92,14 +93,10 @@
                                     <i class="feather icon-chevron-down"></i>
                                 </div>
                                 <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+
                                     <li>
-                                        <a href="#!">
-                                            <i class="feather icon-settings"></i> Settings
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="auth-sign-in-social.html">
-                                            <i class="feather icon-log-out"></i> Logout
+                                        <a href="{{route('logout')}}">
+                                            <i class="feather icon-log-out"></i> Se déconnecter
                                         </a>
                                     </li>
                                 </ul>
@@ -118,14 +115,14 @@
                         <div class="pcoded-inner-navbar main-menu">
                             <ul class="pcoded-item pcoded-left-item">
                                 <li class="">
-                                    <a href="navbar-light.html" class="waves-effect waves-dark">
+                                    <a href="{{route('admin')}}" class="waves-effect waves-dark">
                                         <span class="pcoded-micon">
                                             <i class="feather icon-menu"></i>
                                         </span>
                                         <span class="pcoded-mtext">Tableau de bord</span>
                                     </a>
                                 </li>
-                                <li class="pcoded-hasmenu active pcoded-trigger">
+                                <li class="pcoded-hasmenu  pcoded-trigger">
                                     <a href="javascript:void(0)" class="waves-effect waves-dark">
                                         <span class="pcoded-micon"><i class="feather icon-home"></i></span>
                                         <span class="pcoded-mtext">Gestion générale</span>
@@ -157,7 +154,15 @@
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="{{route('books.index')}}" class="waves-effect waves-dark">
+                                    <a href="{{route('users.index')}}" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon">
+                                            <i class="feather icon-book"></i>
+                                        </span>
+                                        <span class="pcoded-mtext">Gestion des lecteurs</span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="{{route('prises.index')}}" class="waves-effect waves-dark">
                                         <span class="pcoded-micon">
                                             <i class="feather icon-bookmark"></i>
                                         </span>
@@ -165,7 +170,7 @@
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="{{route('books.index')}}" class="waves-effect waves-dark">
+                                    <a href="{{route('reserves.index')}}" class="waves-effect waves-dark">
                                         <span class="pcoded-micon">
                                             <i class="feather icon-book"></i>
                                         </span>
@@ -193,8 +198,30 @@
 <script type="text/javascript" src="{{asset('assets/js/bootstrap.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('assets/js/waves.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('assets/js/jquery.slimscroll.js')}}"></script>
-<script type="text/javascript" src="{{asset('assets/js/pcoded.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('assets/js/script.min.js')}}"></script>
+
+<script type="text/javascript" src="{{asset('assets/js/jquery.dataTables.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/js/dataTables2.buttons.min.js')}}"></script>
+<script src="{{asset('assets/js/jszip.min.js')}}"></script>
+<script src="{{asset('assets/js/pdfmake.min.js')}}"></script>
+<script src="{{asset('assets/js/vfs_fonts.js')}}"></script>
+<script src="{{asset('assets/js/dataTables.buttons.min.js')}}"></script>
+<script src="{{asset('assets/js/buttons.flash.min.js')}}"></script>
+<script src="{{asset('assets/js/btn-colVis.min.js')}}"></script>
+
+<script src="{{asset('assets/js/buttons.print.min.js')}}"></script>
+<script src="{{asset('assets/js/buttons.print.min.js')}}"></script>
+<script src="{{asset('assets/js/dataTables.bootstrap4.min.j')}}"></script>
+<script src="{{asset('assets/js/dataTables.responsive.min.js')}}"></script>
+<script src="{{asset('assets/js/responsive.bootstrap4.min.js')}}"></script>
+<script src="{{asset('assets/js/extension-btns-custom.js')}}"></script>
+
+
+
+
+
+
+
+
 
 
 {{--<script src="../files/assets/pages/chart/float/jquery.flot.js"></script>--}}
@@ -212,29 +239,19 @@
 <script src="{{asset('assets/js/vertical-layout.min.js')}}"></script>
 <script src="{{asset('assets/js/custom-dashboard.min.js')}}"></script>
 
-<script src="{{asset('assets/js/jszip.min.js')}}"></script>
-<script src="{{asset('assets/js/pdfmake.min.js')}}"></script>
-<script src="{{asset('assets/js/vfs_fonts.js')}}"></script>
+{{--<script src="{{asset('assets/js/jszip.min.js')}}"></script>--}}
+{{--<script src="{{asset('assets/js/pdfmake.min.js')}}"></script>--}}
+{{--<script src="{{asset('assets/js/vfs_fonts.js')}}"></script>--}}
 
 
 
 
-<script src="{{asset('assets/js/dataTables.buttons.min.js')}}"></script>
-<script src="{{asset('assets/js/buttons.flash.min.js')}}"></script>
-<script src="{{asset('assets/js/jszip.min.js')}}"></script>
-<script src="{{asset('assets/js/vfs_fonts.js')}}"></script>
-<script src="{{asset('assets/js/buttons.colVis.min.js')}}"></script>
 
 
 
 
-<script src="{{asset('assets/js/buttons.print.min.js')}}"></script>
-<script src="{{asset('assets/js/buttons.print.min.js')}}"></script>
-<script src="{{asset('assets/js/dataTables.bootstrap4.min.j')}}"></script>
-<script src="{{asset('assets/js/dataTables.responsive.min.js')}}"></script>
-<script src="{{asset('assets/js/responsive.bootstrap4.min.js')}}"></script>
-<script src="{{asset('assets/js/extension-btns-custom.js')}}"></script>
-
+<script type="text/javascript" src="{{asset('assets/js/pcoded.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/js/script.min.js')}}"></script>
 <script src="{{asset('assets/js/modal.js')}}"></script>
 <script src="{{asset('assets/js/classie.js')}}"></script>
 <script src="{{asset('assets/js/modalEffects.js')}}"></script>

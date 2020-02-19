@@ -13,16 +13,25 @@
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('landing');
 Route::group(['middleware' => 'auth'],function (){
     Route::get('/admin', function () {
         return view('admin.layouts.landing');
-    });
+    })->name('admin');
     Route::resource('domaines','DomaineController');
     Route::resource('types','TypeController');
     Route::resource('emplacements','EmplacementController');
     Route::resource('books','BookController');
+    Route::resource('users','StudentController');
 });
+
+Route::resource('prises','PriseController');
+Route::post('/prises/confirm/{id}','PriseController@confirm')->name('prise.confirm');
+Route::post('/reserves/confirm/{id}','ReservationController@confirm')->name('reserves.confirm');
+Route::post('/prises/reject/{id}','PriseController@reject')->name('prise.reject');
+Route::post('/reserves/reject/{id}','ReservationController@reject')->name('reserves.reject');
+Route::resource('reserves','ReservationController');
+Route::get('logout', 'Auth\LoginController@logout')->name('logout');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

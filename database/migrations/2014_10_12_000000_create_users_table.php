@@ -18,8 +18,8 @@ class CreateUsersTable extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->string('num_card')->nullable();
-            $table->enum('role',['admin','student'])->default('student');
-            $table->string('email')->unique();
+            $table->enum('role',['admin','etudiant cycle classique','5 eme annee','etudiant nouveau cycle','enseignent extern','personnel','enseignent','agents','Magister doctoral','invité','1cp','2cp','1cs','2cs','3cs'])->default('1cp');
+            $table->string('email');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();

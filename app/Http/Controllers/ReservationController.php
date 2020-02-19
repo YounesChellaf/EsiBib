@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Prise;
+use App\Reservation;
 use Illuminate\Http\Request;
 
-class PriseController extends Controller
+class ReservationController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class PriseController extends Controller
      */
     public function index()
     {
-        return view('admin.layouts.prise');
+        return view('admin.layouts.reservation');
     }
 
     /**
@@ -35,7 +35,7 @@ class PriseController extends Controller
      */
     public function store(Request $request)
     {
-        $prise = Prise::create($request->all());
+        Reservation::create($request->all());
         return redirect()->back();
     }
 
@@ -81,18 +81,18 @@ class PriseController extends Controller
      */
     public function destroy($id)
     {
-
+        //
     }
 
     public function confirm($id){
-        $reservation=Prise::find($id);
+        $reservation=Reservation::find($id);
         $reservation->statu = 'confirmed';
         $reservation->save();
         return redirect()->back();
     }
 
     public function reject($id){
-        $reservation=Prise::find($id);
+        $reservation=Reservation::find($id);
         $reservation->statu = 'rejected';
         $reservation->save();
         return redirect()->back();
