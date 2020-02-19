@@ -4,7 +4,7 @@
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <title>Admindek | Admin Template</title>
+    <title>EsiBib</title>
 
 
     <!--[if lt IE 10]>
@@ -15,11 +15,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Admindek Bootstrap admin template made using Bootstrap 4 and it has huge amount of ready made feature, UI components, pages which completely fulfills any dashboard needs." />
-    <meta name="keywords" content="flat ui, admin Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
-    <meta name="author" content="colorlib" />
-
-    <link rel="icon" href="https://colorlib.com//polygon/admindek/files/assets/images/favicon.ico" type="image/x-icon">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
@@ -93,7 +88,7 @@
                         <li class="user-profile header-notification">
                             <div class="dropdown-primary dropdown">
                                 <div class="dropdown-toggle" data-toggle="dropdown">
-                                    <span>Younes CH</span>
+                                    <span>{{auth()->user()->first_name}}</span>
                                     <i class="feather icon-chevron-down"></i>
                                 </div>
                                 <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
@@ -156,9 +151,25 @@
                                 <li class="">
                                     <a href="{{route('books.index')}}" class="waves-effect waves-dark">
                                         <span class="pcoded-micon">
-                                            <i class="feather icon-menu"></i>
+                                            <i class="feather icon-book"></i>
                                         </span>
                                         <span class="pcoded-mtext">Gestion livres</span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="{{route('books.index')}}" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon">
+                                            <i class="feather icon-bookmark"></i>
+                                        </span>
+                                        <span class="pcoded-mtext">Demande de prise</span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="{{route('books.index')}}" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon">
+                                            <i class="feather icon-book"></i>
+                                        </span>
+                                        <span class="pcoded-mtext">Les reservation</span>
                                     </a>
                                 </li>
                             </ul>

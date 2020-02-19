@@ -92,7 +92,7 @@
                             <label class="control-label" >Nombre d'exemplaires :</label>
                             <input class="form-control" type="text" name="nb_exemplaire">
                         </div>
-                        <input type="hidden" name="user_id" value="1">
+                        <input type="hidden" name="user_id" value="{{auth()->user()->id}}">
                         <div class="form-group">
                             <label for="">Domaine du livre :</label>
                             <select name="domaine_id" class="form-control" >
@@ -174,7 +174,7 @@
                                 <label class="control-label" >Nombre d'exemplaires :</label>
                                 <input class="form-control" type="text" name="nb_exemplaire" value="{{$book->nb_exemplaire}}">
                             </div>
-                            <input type="hidden" name="user_id" value="1">
+                            <input type="hidden" name="user_id" value="{{auth()->user()->id}}">
                             <div class="form-group">
                                 <label for="">Domaine du livre :</label>
                                 <select name="domaine_id" class="form-control" >
