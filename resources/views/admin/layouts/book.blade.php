@@ -65,8 +65,8 @@
                             <input class="form-control" type="text" name="title">
                         </div>
                         <div class="form-group">
-                            <label class="control-label" >Description :</label>
-                            <textarea name="description" id="" cols="30" rows="10" class="form-control"></textarea>
+                            <label class="control-label" >Cote :</label>
+                            <input class="form-control" type="text" name="cote">
                         </div>
                         <div class="form-group">
                             <label class="control-label" >Numero ISBN :</label>
@@ -147,8 +147,8 @@
                                 <input class="form-control" type="text" name="title" value="{{$book->title}}">
                             </div>
                             <div class="form-group">
-                                <label class="control-label" >Description :</label>
-                                <textarea name="description" id="" cols="30" rows="10" class="form-control">{{$book->description}}</textarea>
+                                <label class="control-label" >Cote :</label>
+                                <input class="form-control" type="text" name="cote" value="{{$book->cote}}">
                             </div>
                             <div class="form-group">
                                 <label class="control-label" >Numero ISBN :</label>

@@ -75,7 +75,7 @@ class BookController extends Controller
         $book = Book::find($id);
 
         $book->title = $request->title;
-        $book->description = $request->description;
+        $book->cote = $request->cote;
         $book->isbn = $request->isbn;
         $book->langue = $request->langue;
         $book->annee_acqui = $request->annee_acqui;
