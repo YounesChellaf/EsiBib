@@ -62,35 +62,35 @@
                         @csrf
                         <div class="form-group">
                             <label class="control-label" >Titre :</label>
-                            <input class="form-control" type="text" name="title">
+                            <input class="form-control" type="text" name="title" required>
                         </div>
                         <div class="form-group">
                             <label class="control-label" >Cote :</label>
-                            <input class="form-control" type="text" name="cote">
+                            <input class="form-control" type="text" name="cote" required>
                         </div>
                         <div class="form-group">
                             <label class="control-label" >Numero ISBN :</label>
-                            <input class="form-control" type="text" name="isbn">
+                            <input class="form-control" type="text" name="isbn" required>
                         </div>
                         <div class="form-group">
                             <label class="control-label" >Langue :</label>
-                            <input class="form-control" type="text" name="langue">
+                            <input class="form-control" type="text" name="langue" required>
                         </div>
                         <div class="form-group">
                             <label class="control-label" >Année acquisition :</label>
-                            <input class="form-control" type="text" name="annee_acqui">
+                            <input class="form-control" type="text" name="annee_acqui" required>
                         </div>
                         <div class="form-group">
                             <label class="control-label" >Année edition :</label>
-                            <input class="form-control" type="text" name="annee_edition">
+                            <input class="form-control" type="text" name="annee_edition" required>
                         </div>
                         <div class="form-group">
                             <label class="control-label" >Nombre de parties :</label>
-                            <input class="form-control" type="text" name="nb_partie">
+                            <input class="form-control" type="text" name="nb_partie" required>
                         </div>
                         <div class="form-group">
                             <label class="control-label" >Nombre d'exemplaires :</label>
-                            <input class="form-control" type="text" name="nb_exemplaire">
+                            <input class="form-control" type="text" name="nb_exemplaire" required>
                         </div>
                         <input type="hidden" name="user_id" value="{{auth()->user()->id}}">
                         <div class="form-group">

@@ -76,6 +76,17 @@
 <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
 <script src="{{asset('assets/js/holder.min.js')}}"></script>
 <script src="{{asset('assets/js/jquery-slim.min.js')}}"></script>
+<script>
+    $(document).ready(function(){
+        $("#listSearch").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+
+            $("#books card").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>
 
 </body>
 </html>

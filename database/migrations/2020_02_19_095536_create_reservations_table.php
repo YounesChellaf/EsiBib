@@ -20,7 +20,7 @@ class CreateReservationsTable extends Migration
             $table->string('card_student');
             $table->string('book_id');
             $table->date('getting_date');
-            $table->enum('statu',['draft','confirmed','rejected']);
+            $table->enum('statu',['draft','confirmed','rejected','fait']);
             $table->timestamps();
         });
     }

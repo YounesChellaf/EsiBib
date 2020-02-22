@@ -19,7 +19,7 @@ class CreatePrisesTable extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->integer('card_student');
-            $table->enum('statu',['draft','confirmed','rejected']);
+            $table->enum('statu',['draft','confirmed','rejected','fait']);
             $table->timestamps();
         });
     }

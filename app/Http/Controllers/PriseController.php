@@ -87,6 +87,8 @@ class PriseController extends Controller
     public function confirm($id){
         $reservation=Prise::find($id);
         $reservation->statu = 'confirmed';
+        $reservation->book->nb_exemplaire--;
+        $reservation->book->save();
         $reservation->save();
         return redirect()->back();
     }
@@ -94,6 +96,14 @@ class PriseController extends Controller
     public function reject($id){
         $reservation=Prise::find($id);
         $reservation->statu = 'rejected';
+        $reservation->save();
+        return redirect()->back();
+    }
+    public function rendu($id){
+        $reservation=Prise::find($id);
+        $reservation->book->nb_exemplaire++;
+        $reservation->book->save();
+        $reservation->statu = 'fait';
         $reservation->save();
         return redirect()->back();
     }

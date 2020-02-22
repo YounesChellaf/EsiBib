@@ -25,7 +25,6 @@ class BookRequest extends FormRequest
     {
         return [
             'title' =>'required',
-            'description' =>'required',
             'isbn' =>'required',
             'langue' =>'required',
             'annee_acqui' =>'required',
@@ -38,7 +37,6 @@ class BookRequest extends FormRequest
     {
         return [
             'title.required' =>'Le titre est obligatoire',
-            'description.required' =>'La description est obligatoire',
             'isbn.required' =>'L Isbn est obligatoire',
             'langue.required' =>'La langue est obligatoire',
             'annee_acqui.required' =>'La date d acquisition est obligatoire',

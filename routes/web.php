@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home')->withBooks(\App\Book::all());
 })->name('landing');
 Route::group(['middleware' => 'auth'],function (){
     Route::get('/admin', function () {
@@ -27,9 +27,11 @@ Route::group(['middleware' => 'auth'],function (){
 
 Route::resource('prises','PriseController');
 Route::post('/prises/confirm/{id}','PriseController@confirm')->name('prise.confirm');
+Route::post('/prises/rendu/{id}','PriseController@rendu')->name('prise.rendu');
 Route::post('/reserves/confirm/{id}','ReservationController@confirm')->name('reserves.confirm');
 Route::post('/prises/reject/{id}','PriseController@reject')->name('prise.reject');
 Route::post('/reserves/reject/{id}','ReservationController@reject')->name('reserves.reject');
+Route::post('/reserves/allouer/{id}','ReservationController@allouer')->name('reserves.allouer');
 Route::resource('reserves','ReservationController');
 Route::get('logout', 'Auth\LoginController@logout')->name('logout');
 Auth::routes();

@@ -3,9 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="e368f2f5-45e0-498e-bfaa-c3d247b24a62" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_15_140013_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_15_140013_create_books_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PriseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PriseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/BookRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/BookRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Prise.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Prise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Reservation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_15_173935_create_prises_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_15_173935_create_prises_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_19_095536_create_reservations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_19_095536_create_reservations_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/book.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/book.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/prise.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/prise.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/reservation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/reservation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,20 +29,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
+      <file leaf-file-name="ReservationController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReservationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3588">
-              <caret line="156" column="59" selection-start-line="156" selection-start-column="59" selection-end-line="156" selection-end-column="59" />
+            <state relative-caret-position="122">
+              <caret line="111" column="44" lean-forward="true" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
+              <folding>
+                <element signature="e#40#54#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_10_12_000000_create_users_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <file leaf-file-name="PriseController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PriseController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="20" column="235" selection-start-line="20" selection-start-column="235" selection-end-line="20" selection-end-column="235" />
+            <state relative-caret-position="243">
+              <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="106" selection-end-column="29" />
+              <folding>
+                <element signature="e#40#54#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,8 +56,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="138">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -49,8 +65,8 @@
       <file leaf-file-name="BookController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+            <state relative-caret-position="234">
+              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding>
                 <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
@@ -58,50 +74,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/book.blade.php">
+      <file leaf-file-name="Prise.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Prise.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="150" column="58" selection-start-line="150" selection-start-column="58" selection-end-line="150" selection-end-column="58" />
+            <state relative-caret-position="168">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lecteur.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/lecteur.blade.php">
+      <file leaf-file-name="reservation.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/reservation.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2001">
-              <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StudentController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1633">
-              <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+            <state relative-caret-position="106">
+              <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
               <folding>
-                <element signature="e#40#53#0#PHP" expanded="true" />
+                <element signature="e#3708#4907#0#HTML" />
+                <element signature="e#5758#5765#1#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Book.php">
+      <file leaf-file-name="prise.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/prise.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="301">
+              <caret line="37" column="49" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="37" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="141" selection-start-line="9" selection-start-column="141" selection-end-line="9" selection-end-column="141" />
+              <folding>
+                <element signature="e#938#959#0#HTML" expanded="true" />
+                <element signature="e#1282#1306#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="84" column="58" lean-forward="true" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -109,8 +130,8 @@
       <file leaf-file-name="2020_02_15_140013_create_books_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_15_140013_create_books_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="228">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -149,7 +170,6 @@
         <option value="$PROJECT_DIR$/app/Domaine.php" />
         <option value="$PROJECT_DIR$/app/Type.php" />
         <option value="$PROJECT_DIR$/app/Emplacement.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/BookRequest.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
@@ -163,29 +183,30 @@
         <option value="$PROJECT_DIR$/resources/views/admin/layouts/type.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/EmplacementController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layouts/emplacement.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_15_173935_create_prises_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_19_095536_create_reservations_table.php" />
         <option value="$PROJECT_DIR$/app/Book.php" />
-        <option value="$PROJECT_DIR$/app/Reservation.php" />
-        <option value="$PROJECT_DIR$/app/Prise.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PriseController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/layouts/reservation.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/layouts/prise.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/css/themify.css" />
         <option value="$PROJECT_DIR$/public/assets/js/btn-colVis.min.js" />
         <option value="$PROJECT_DIR$/resources/views/admin/layouts/landing.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layouts/lecteur.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_15_140013_create_books_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BookController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/BookRequest.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layouts/book.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_15_173935_create_prises_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_19_095536_create_reservations_table.php" />
+        <option value="$PROJECT_DIR$/app/Reservation.php" />
+        <option value="$PROJECT_DIR$/app/Prise.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PriseController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layouts/prise.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layouts/reservation.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BookController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -293,7 +314,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -303,6 +324,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,11 +378,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Book&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/BookController.php&#10;book&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140013_create_books_table.php&#10;Stude&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/StudentController.php&#10;User&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/seeds/UserSeeder.php&#10;web&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/routes/web.php&#10;Regi&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/Auth/RegisterController.php&#10;user&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2014_10_12_000000_create_users_table.php&#10;Studen&#9;null&#9;null&#10;Prise&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/PriseController.php&#10;reser&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_19_095536_create_reservations_table.php&#10;REser&#9;null&#9;null&#10;Login&#9;null&#9;null&#10;Pris&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Prise.php&#10;Reser&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_19_095536_create_reservations_table.php&#10;REs&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/routes/web.php&#10;rese&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_19_095536_create_reservations_table.php&#10;hom&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/home.blade.php&#10;home&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/home.blade.php&#10;Usee&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/seeds/UserSeeder.php&#10;Boo&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Book.php&#10;typ&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140858_create_types_table.php&#10;boo&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140013_create_books_table.php&#10;Emp&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/EmplacementController.php&#10;Emplace&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/EmplacementController.php&#10;empla&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140907_create_emplacements_table.php&#10;TYpe&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/TypeController.php&#10;Doma&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/DomaineController.php&#10;domai&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140848_create_domaines_table.php&#10;.en&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/.env&#10;app.&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/bootstrap/app.php&#10;app&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/config/app.php&#10;USer&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/seeds/UserSeeder.php&#10;Regis&#9;null&#9;null&#10;reg&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/auth/register.blade.php&#10;lo&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/auth/login.blade.php&#10;regi&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/auth/register.blade.php&#10;regis&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/auth/register.blade.php&#10;UserTa&#9;null&#9;null&#10;Database&#9;null&#9;null&#10;prise&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_173935_create_prises_table.php&#10;em&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140907_create_emplacements_table.php&#10;Empla&#9;null&#9;null&#10;type&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140858_create_types_table.php&#10;Type&#9;null&#9;null&#10;domain&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140848_create_domaines_table.php&#10;Empl&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Emplacement.php&#10;welco&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/welcome.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/routes/web.php&#10;Book&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/BookController.php&#10;home&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/home.blade.php&#10;book&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140013_create_books_table.php&#10;Prise&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/PriseController.php&#10;Reser&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Reservation.php&#10;reser&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_19_095536_create_reservations_table.php&#10;boo&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140013_create_books_table.php&#10;prise&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_173935_create_prises_table.php&#10;hom&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/home.blade.php&#10;Pris&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/PriseController.php&#10;Stude&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/StudentController.php&#10;User&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/seeds/UserSeeder.php&#10;Regi&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/Auth/RegisterController.php&#10;user&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2014_10_12_000000_create_users_table.php&#10;Studen&#9;null&#9;null&#10;REser&#9;null&#9;null&#10;Login&#9;null&#9;null&#10;REs&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/routes/web.php&#10;rese&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_19_095536_create_reservations_table.php&#10;Usee&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/seeds/UserSeeder.php&#10;Boo&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Book.php&#10;typ&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140858_create_types_table.php&#10;Emp&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/EmplacementController.php&#10;Emplace&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/EmplacementController.php&#10;empla&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140907_create_emplacements_table.php&#10;TYpe&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/TypeController.php&#10;Doma&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Http/Controllers/DomaineController.php&#10;domai&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140848_create_domaines_table.php&#10;.en&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/.env&#10;app.&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/bootstrap/app.php&#10;app&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/config/app.php&#10;USer&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/seeds/UserSeeder.php&#10;Regis&#9;null&#9;null&#10;reg&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/auth/register.blade.php&#10;lo&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/auth/login.blade.php&#10;regi&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/auth/register.blade.php&#10;regis&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/auth/register.blade.php&#10;UserTa&#9;null&#9;null&#10;Database&#9;null&#9;null&#10;em&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140907_create_emplacements_table.php&#10;Empla&#9;null&#9;null&#10;type&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140858_create_types_table.php&#10;Type&#9;null&#9;null&#10;domain&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/database/migrations/2020_02_15_140848_create_domaines_table.php&#10;Empl&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/app/Emplacement.php&#10;welco&#9;FILE&#9;file:///Users/issam/Desktop/EsiBib/resources/views/welcome.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -402,23 +423,24 @@
       <workItem from="1581957398053" duration="7858000" />
       <workItem from="1546301879585" duration="9422000" />
       <workItem from="1582147363839" duration="23000" />
+      <workItem from="1582391695316" duration="3582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29090000" />
+    <option name="totallyTimeSpent" value="32672000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="836" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32880098" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32780084" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,13 +462,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_15_140013_create_books_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -601,31 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_15_173935_create_prises_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/BookRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/domaine.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="31" column="36" lean-forward="true" selection-end-line="113" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Prise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -636,52 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_19_095536_create_reservations_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReservationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="98" column="5" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="98" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PriseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/prise.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/themify.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13867" selection-start-column="13867" selection-end-column="13867" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/reservation.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1274">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -699,20 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -724,13 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -772,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_15_140013_create_books_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Book.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -786,20 +710,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2297">
+          <caret line="185" column="20" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/BookRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/book.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="125" column="27" lean-forward="true" selection-start-line="125" selection-start-column="27" selection-end-line="125" selection-end-column="27" />
+          <folding>
+            <element signature="e#3082#3089#1#HTML" expanded="true" />
+            <element signature="e#7370#12835#0#HTML" />
+            <element signature="e#7819#7826#1#HTML" expanded="true" />
+            <element signature="e#12844#14096#0#HTML" />
+            <element signature="e#13294#13301#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_15_173935_create_prises_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_19_095536_create_reservations_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Prise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PriseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="106" selection-end-column="29" />
+          <folding>
+            <element signature="e#40#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReservationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="111" column="44" lean-forward="true" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
+          <folding>
+            <element signature="e#40#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_15_140013_create_books_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/prise.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="37" column="49" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="37" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/reservation.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding>
+            <element signature="e#3708#4907#0#HTML" />
+            <element signature="e#5758#5765#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BookController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+        <state relative-caret-position="234">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding>
             <element signature="e#40#53#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/book.blade.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="150" column="58" selection-start-line="150" selection-start-column="58" selection-end-line="150" selection-end-column="58" />
+        <state relative-caret-position="138">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="84" column="58" lean-forward="true" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="141" selection-start-line="9" selection-start-column="141" selection-end-line="9" selection-end-column="141" />
+          <folding>
+            <element signature="e#938#959#0#HTML" expanded="true" />
+            <element signature="e#1282#1306#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

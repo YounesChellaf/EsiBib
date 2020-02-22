@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Prise;
 use App\Reservation;
 use Illuminate\Http\Request;
 
@@ -94,6 +95,23 @@ class ReservationController extends Controller
     public function reject($id){
         $reservation=Reservation::find($id);
         $reservation->statu = 'rejected';
+        $reservation->save();
+        return redirect()->back();
+    }
+
+    public function allouer($id){
+        $reservation=Reservation::find($id);
+        $prise = Prise::create([
+            'first_name' => $reservation->first_name,
+            'last_name' => $reservation->last_name,
+            'card_student' => $reservation->card_student,
+            'book_id' => $reservation->book_id,
+            'statu' => 'confirmed',
+        ]);
+
+        $reservation->book->nb_exemplaire--;
+        $reservation->book->save();
+        $reservation->statu = 'fait';
         $reservation->save();
         return redirect()->back();
     }

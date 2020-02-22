@@ -7,37 +7,40 @@
             <div class="container">
                 <h1 class="jumbotron-heading" >La bibiotheque de l'ESI vous sohaite la bienvenu</h1>
                 <p>
+                    <input class="form-control" id="listSearch" type="text" placeholder="Tapez vos mots clé pour la recherches des vos livres">
                 </p>
             </div>
         </section>
         <div class="album py-5 bg-light">
-            <div class="container">
+            <div class="container" id="books">
 
                 <div class="row">
-                    @foreach(\App\Book::all() as $book)
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="{{asset('assets/images/book.jpeg')}}" style="height: 170px" alt="Card image cap">
-                            <div class="card-body">
-                                <div class="row container">
-                                    <div class="row">
-                                        <h4>{{$book->title}}</h4>
-                                        <label class="alert alert-danger " style="margin-right: 2%">{{$book->domaine->libelle}}</label>
-                                        <label class="alert alert-info ">{{$book->type->libelle}}</label>
-                                    </div>
-                                    <p class="card-text">
-                                        {{$book->description}}
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#modal-get-{{$book->id}}" style="margin-right: 3%">Prendre</button>
-                                        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal-reserve-{{$book->id}}">Réserver</button>
+                    @foreach($books as $book)
+                            <card class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" src="{{asset('assets/images/book.jpeg')}}" style="height: 170px" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class=" container">
+                                            <h4>{{$book->title}}</h4>
+                                            <div class="row">
+                                                <label class="alert alert-danger " style="margin-right: 2%">{{$book->domaine->libelle}}</label>
+                                                <label class="alert alert-info ">{{$book->type->libelle}}</label>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    @if($book->nb_exemplaire > 0)
+                                                        <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#modal-get-{{$book->id}}" style="margin-right: 3%">Prendre</button>
+                                                    @else
+                                                        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal-reserve-{{$book->id}}">Réserver</button>
+                                                    @endif
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
+                            </card>
+
+
                     @endforeach
                 </div>
             </div>

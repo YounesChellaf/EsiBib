@@ -23,6 +23,9 @@ class Reservation extends Model
             case 'draft':
                 echo '<label class="label label-warning">Brouillon</label>';
                 break;
+            case 'fait':
+                echo '<label class="label label-info">Faite</label>';
+                break;
 
             default:
                 break;
